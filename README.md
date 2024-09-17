@@ -4,26 +4,13 @@ if anybody tend to use processing with Intellij IDEA,
 instead of [PDE](https://processing.org/download), can use this template.
 
 ## requirement
-JDK 17+
+JDK 21
 
 ## setup
 just import this project as a maven project
 
+![img.png](doc/img.png)
 
-## verify
-run the `main` in `Hello.java`, should see a window popup like this.
-![](doc/img/hello.gif)
-
-
-## emoji 
-to run the Emoji Example,
-the best openjdk build is JDK build by JetBrains, 
-[JetBrainsRuntime](https://github.com/JetBrains/JetBrainsRuntime/releases)
-other build may got monochrome output.
-
-
-### jbr jdk
-![](doc/img/emoji.png)
-### plain jdk
-![](doc/img/emoji-no-color.png)
-
+## data source
+* population data from 7th population census
+* lng & lat from AMap api response
